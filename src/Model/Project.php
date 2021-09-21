@@ -19,7 +19,7 @@ class Project
      */
     public function getId()
     {
-        return (int) $this->_data['id'];
+        return (int) $this->_data['id']; // Не понятно для чего используется приведение типов. Из базы данных, если это модель, значение и так приходит как число. 
     }
 
     /**
