@@ -4,7 +4,7 @@
     "license": "proprietary",
     "require": {
         "php": "^7.2",
-        "symfony/http-foundation": "^5.2",
+        "symfony/http-foundation": "^5.2", // И все же это проект на symphony
         "symfony/routing": "^5.2"
     },
     "autoload": {
