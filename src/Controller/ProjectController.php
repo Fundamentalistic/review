@@ -67,7 +67,7 @@ class ProjectController
 			return new JsonResponse(['error' => 'Not found']);
 		}
 		
-		return new JsonResponse(
+		return new JsonResponse(	// Зачем тут идет передача супермассива? Он и так доступен везде
 			$this->storage->createTask($_REQUEST, $project->getId())
 		);
     }
